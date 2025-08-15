@@ -1,25 +1,32 @@
-# Retail Sales Performance Dashboard
+**Retail Sales Dashboard**
 
-## Project Purpose
-This dashboard provides insights into retail sales performance by month, category, and region. It is designed to help retail managers and analysts quickly identify trends and make data-driven decisions.
+An interactive Power BI dashboard to analyze sales performance, profit trends, and growth metrics from retail transaction data.
 
-## 📊 Dataset
-- Source: [Specify, e.g., Kaggle - Retail Sales Dataset or company internal data]
-- Time period: [e.g., Jan 2023 - Dec 2023]
-- Measures included:
-  - Sales
-  - Profit
-  - Quantity Sold
-  - Profit Margin
+**Overview**
 
-## 🛠 Tools Used
-- Microsoft Power BI — for building the dashboard
-- Microsoft Excel — for data cleaning & preprocessing
+Transforms raw sales data into actionable insights.
+Tracks revenue, profit margins, and monthly growth %.
+Allows filtering by category, region, and time period.
 
-## 🚀 Progress
-- [x] Data cleaning completed
-- [x] Dashboard visuals created
-- [ ] KPI cards in progress
+**Dataset**
+**Source: Sample Superstore dataset from Kaggle (https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)**
 
-## 📷 Preview
-![Dashboard Screenshot](images/dashboard.png)
+**Workflow**
+
+Data Cleaning – Removed nulls, fixed data types in Power Query.
+Modeling – Created relationships & Date table for time intelligence.
+DAX Measures – Sales, Profit, Growth %, Previous Month Sales.
+Visualization – KPI cards, line charts, category/region breakdown.
+
+**Tools**
+
+Power BI Desktop
+Power Query Editor
+DAX
+
+**Key Insights**
+
+Top-performing categories & regions.
+Monthly & yearly sales growth patterns.
+Impact of returns on net profit.
+
