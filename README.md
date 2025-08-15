@@ -42,4 +42,4 @@ Peak Sales Month: December, due to seasonal demand.
 Top-Selling Product Category: Electronics with 42% profit margin
 Recommendation: Increase inventory for high-demand months.
 
-----
+-------
